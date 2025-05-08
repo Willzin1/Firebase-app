@@ -8,7 +8,7 @@ export default function createDivMessage(auth, message, container) {
     newP.innerHTML = message;
     
     containerRow.classList.add('d-none');
-    newDiv.classList.add('alert', 'alert-success', 'mt-4', 'divSuccess');
+    newDiv.classList.add('alert', 'alert-success', 'mt-4', 'divSuccess', 'mx-auto', 'text-center', 'shadow');
     newDiv.style.maxWidth = '600px';
 
     newDiv.appendChild(newP);
